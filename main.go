@@ -9,5 +9,8 @@ func main() {
 }
 
 func echo() {
-	fmt.Println("Hello from function")
+	var strg string = "Class 214"
+	strg = "Class 214, Thr"
+	msg := "Go lang Rocks!!"
+	fmt.Println(strg, msg)
 }
