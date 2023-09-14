@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
-	fmt.Println("Hello World!")
+	var num int = 2 //2.0
+	fmt.Println(num)
 }
