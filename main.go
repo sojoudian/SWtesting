@@ -6,6 +6,11 @@ func main() {
 	var num int = 2 //2.0
 	fmt.Println(num)
 	echo()
+
+	s := talk()
+	fmt.Println(s) // If you want to make a function accessible from other
+	//programs you have to make the first letter Uppercase like
+	//fmt.Println()
 }
 
 func echo() {
@@ -17,4 +22,9 @@ func echo() {
 	msg = "Golang Rocks!!!!!"
 	//msg = 2
 	fmt.Println(strg, clss_num, msg)
+}
+
+func talk() string {
+	var mySentence string = "A function with return"
+	return mySentence
 }
