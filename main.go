@@ -10,7 +10,11 @@ func main() {
 
 func echo() {
 	var strg string = "Class 214"
-	strg = "Class 214, Thr"
+	strg = "Class"
+	// clss_num := 214
+	var clss_num float64 = 214.55
 	msg := "Go lang Rocks!!"
-	fmt.Println(strg, msg)
+	msg = "Golang Rocks!!!!!"
+	//msg = 2
+	fmt.Println(strg, clss_num, msg)
 }
