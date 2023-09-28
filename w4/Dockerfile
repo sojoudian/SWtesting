@@ -1,11 +1,11 @@
 #Create multi stage Docker
 #BUILD STAGE
-FROM golang:1.21.1-alpine as builer
+FROM golang:1.21.1-alpine as builder
 
 #Set the working directory
 WORKDIR /app
 
-#Buil the app
+#Build the app
 RUN go build -o myapp
 
 #Use a smaller image to reduce the size of the final container
