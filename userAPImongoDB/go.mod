@@ -1,4 +1,4 @@
-module github.com/sojoudian/userAPImongoDB
+module userAPImongo
 
 go 1.21.4
 
