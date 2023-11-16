@@ -14,6 +14,7 @@ type TimeInfo struct {
 	Datetime string `json:"datetime"`
 }
 
+// github.com/sojoudian/
 func getTorontoTime() (string, error) {
 	resp, err := http.Get(worldTimeAPIURL)
 	if err != nil {
